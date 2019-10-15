@@ -1,0 +1,3 @@
+﻿  Game.cpp
+G:\Gameplay programming\sfml lab 1\SFMLGame\Game.cpp(72,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SFMLGame.vcxproj -> G:\Gameplay programming\sfml lab 1\Debug\SFMLGame.exe
