@@ -1,3 +1,4 @@
-﻿  Game.cpp
-G:\Gameplay programming\sfml lab 1\SFMLGame\Game.cpp(72,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SFMLGame.vcxproj -> G:\Gameplay programming\sfml lab 1\Debug\SFMLGame.exe
+﻿  Player.cpp
+C:\Users\c00240102\Desktop\SFML-Lab-1-15-10-19\SFMLGame\Player.cpp(41,85): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\c00240102\Desktop\SFML-Lab-1-15-10-19\SFMLGame\Player.cpp(41,51): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+  SFMLGame.vcxproj -> C:\Users\c00240102\Desktop\SFML-Lab-1-15-10-19\Debug\SFMLGame.exe

@@ -12,6 +12,7 @@ void Player::initialize()
 	}
 	playerSprite.setTexture(playerTexture);
 	playerSprite.setPosition(0, 0);
+	playerSprite.setOrigin(50, 50);
 	std::cout << "Texture loaded\n";
 }
 
@@ -33,6 +34,15 @@ void Player::update()
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
 		playerSprite.move(1,0);
+	}
+		
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::X))
+	{
+		playerSprite.setScale(playerSprite.getScale().x * .999, playerSprite.getScale().y * .999);
+	}
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Z))
+	{
+		playerSprite.setRotation(playerSprite.getRotation() -90);
 	}
 
 }
